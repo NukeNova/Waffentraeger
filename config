@@ -189,7 +189,7 @@ bindsym $mod+Shift+e exec --no-startup-id ~/.config/i3/scripts/powermenu
 # lock by blurring the screen:
 #exec --no-startup-id -l ~/.config/i3/scripts/i3lock-colorscript'
 # lock in case after sleep
-exec --no-startup-id xss-lock -l ~/.config/i3/scripts/i3lock-colorscript
+exec --no-startup-id xss-lock -l ~/.config/i3/scripts/i3lock-colorscript.sh
 
 # reload the configuration file
 bindsym $mod+Shift+c reload
@@ -346,8 +346,8 @@ set $ws10 "10"
 for_window [class=Xfce4-terminal] focus
 for_window [class=(?i)firefox] focus
 for_window [class=Thunar] focus
-for_window [class=Thunderbird] focus
-for_window [class=TelegramDesktop] focus
+#for_window [class=Thunderbird] focus
+#for_window [class=TelegramDesktop] focus
 
 ##################
 # floating rules #
@@ -436,7 +436,7 @@ exec --no-startup-id ~/.screenlayout/monitor.sh
 
 # set wallpaper
 # exec --no-startup-id sleep 2 && nitrogen --restore
-exec --no-startup-id sleep 1 && feh --bg-fill /usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png
+#exec --no-startup-id sleep 1 && feh --bg-fill /usr/share/endeavouros/backgrounds/endeavouros-wallpaper.png
 
 # set powersavings for display:
 exec --no-startup-id xset s 480 dpms 600 600 600
