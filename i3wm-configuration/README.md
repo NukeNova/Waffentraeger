@@ -1,4 +1,4 @@
-These are my main config files for i3wm
+These are my main configuration files for the i3 window manager
 
 
 Dependancies:
