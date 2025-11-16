@@ -1,13 +1,9 @@
-These are my main config files for i3wm
+#!bin/funky
 
 
-Dependancies:
+These are my funky dotfiles
 
-i3lock-color
-dunst
-firefox
-thunar
-xfce4-terminal
-picom
-flameshot
-dex
+
+
+
+
