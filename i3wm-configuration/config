@@ -229,9 +229,8 @@ exec_always --no-startup-id picom -b
 ## applications/services
 
 
-#get auth work with polkit-gnome
-# i dont actually know what the hell this is but ill keep it
-exec --no-startup-id /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1
+# xfce simple auth manager thingy
+exec --no-startup-id /usr/libexec/xfce-polkit
 
 
 # start dexy
