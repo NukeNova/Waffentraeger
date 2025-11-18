@@ -3,6 +3,7 @@ These are my main configuration files for the i3 window manager
 
 Dependancies:
 
+xfce-polkit
 i3lock-color
 dunst
 firefox
