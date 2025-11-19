@@ -12,3 +12,4 @@ xfce4-terminal
 picom
 flameshot
 dex
+feh
