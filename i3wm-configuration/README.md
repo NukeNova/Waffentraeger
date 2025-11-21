@@ -15,3 +15,8 @@ picom
 flameshot
 dex
 feh
+
+
+and this temporary rofi theming thingy:
+
+https://github.com/adi1090x/rofi?tab=readme-ov-file
