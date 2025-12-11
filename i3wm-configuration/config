@@ -123,6 +123,9 @@ bindsym $mod+q kill
 # lock in case after sleep
 exec --no-startup-id xss-lock -l ~/.config/i3/scripts/i3lock-colorscript.sh
 
+# start the funko pop lock
+bindsym $mod+o exec --no-startup-id ~/.config/i3/scripts/i3lock-colorscript.sh
+
 # reload the configuration file
 bindsym $mod+Shift+c reload
 
