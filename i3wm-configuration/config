@@ -239,8 +239,10 @@ client.urgent               $urgentred  $urgentred  $white      $yellowbrown    
 
 # funky themed thing i found in:   
 # https://github.com/adi1090x/rofi?tab=readme-ov-file
-bindsym $mod+d exec --no-startup-id ~/.config/rofi/launchers/type-4/launcher.sh
+#bindsym $mod+d exec --no-startup-id ~/.config/rofi/launchers/type-4/launcher.sh
 
+# or my normal shitty riced rofi
+bindsym $mod +d exec --no-startup-id rofi -show drun -show-icons
 
 # get a funky wallpaper
 exec_always feh --bg-fill /home/nova/Pictures/catter.png
